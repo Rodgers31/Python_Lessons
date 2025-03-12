@@ -1,4 +1,5 @@
 from tkinter import *
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -20,14 +21,33 @@ window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
-canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
+
+def start_timer():
+    time = 25
+    while time > 0:
+        time -= 1
+        canvas.itemconfig(timer_text, text=f"{time}")
+    window.after(1000, start_timer)
+
+
+c
+anvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 tomato_img = PhotoImage(file="tomato.png")
 # x and y value for which the image will be displayed the width and height
 canvas.create_image(100, 112, image=tomato_img)
-canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
-canvas.pack()
+timer_text = canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
+canvas.grid(column=1, row=1)
 
 
+# Entry
+timer = Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 40, "normal"))
+timer.grid(column=1, row=0)
+# Start Button
+start_button = Button(text="Start", command=start_timer)
+start_button.grid(column=0, row=2)
+# End Button
+end_button = Button(text="End")
+end_button.grid(column=2, row=2)
+# Check
 
 window.mainloop()
-

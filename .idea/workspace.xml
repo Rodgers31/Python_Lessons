@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="pomodoro start">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="UI Setup">
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Lesson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Lesson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pomodoro-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro-start/main.py" afterDir="false" />
     </list>
@@ -116,8 +118,27 @@
       <option name="project" value="LOCAL" />
       <updated>1741658203458</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="UI Setup">
+      <option name="closed" value="true" />
+      <created>1741665800181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741665800181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -125,6 +146,7 @@
     <MESSAGE value="Buttons and Inputs" />
     <MESSAGE value="Kilometers converter my solution" />
     <MESSAGE value="pomodoro start" />
-    <option name="LAST_COMMIT_MESSAGE" value="pomodoro start" />
+    <MESSAGE value="UI Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Setup" />
   </component>
 </project>
