@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 28 start">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="UI Setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day28_Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/main.py" afterDir="false" />
     </list>
@@ -173,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741907739242</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="UI Setup">
+      <option name="closed" value="true" />
+      <created>1741912150852</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741912150852</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,11 +201,11 @@
     <MESSAGE value="Buttons and Inputs" />
     <MESSAGE value="Kilometers converter my solution" />
     <MESSAGE value="pomodoro start" />
-    <MESSAGE value="UI Setup" />
     <MESSAGE value="Countdown function" />
     <MESSAGE value="Countdown breaks" />
     <MESSAGE value="reset button" />
     <MESSAGE value="Day 28 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 28 start" />
+    <MESSAGE value="UI Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Setup" />
   </component>
 </project>
