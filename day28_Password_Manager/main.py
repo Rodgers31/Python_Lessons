@@ -3,6 +3,18 @@ from tkinter import *
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
+
+def save_password():
+    web = web_entry.get()
+    email = user_entry.get()
+    pass_w = pass_entry.get()
+    with open("data.tx", mode="a") as file:
+        file.write(f"{web} | {email} | {pass_w} \n")
+
+    web_entry.delete(0, 'end')
+    pass_entry.delete(0, "end")
+
+
 # ---------------------------- UI SETUP ------------------------------- #
 
 window = Tk()
@@ -41,7 +53,7 @@ pass_button.grid(column=2, row=3, sticky="EW")
 # When combined as "EW", it means the widget will stretch horizontally to fill the entire width of the grid cell
 # from the left (West) to the right (East). This is commonly used to make buttons or other widgets expand to fill
 # the available horizontal space.
-add_button = Button(text="Add", width=36)
+add_button = Button(text="Add", width=36, command=save_password)
 add_button.grid(column=1, row=4, columnspan=2, sticky="EW")
 
 window.mainloop()
