@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="reset button">
-      <change beforePath="$PROJECT_DIR$/pomodoro-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro-start/main.py" afterDir="false" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 28 start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28_Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +56,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rodge\Downloads\Python_Lesson\pomodoro-start" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Day27_Tkinter" />
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson\day28_Password_Manager" />
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson\pomodoro-start" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -155,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741840567986</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day 28 start">
+      <option name="closed" value="true" />
+      <created>1741907727197</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741907727197</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Day 28 start">
+      <option name="closed" value="true" />
+      <created>1741907739242</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741907739242</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +197,7 @@
     <MESSAGE value="Countdown function" />
     <MESSAGE value="Countdown breaks" />
     <MESSAGE value="reset button" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset button" />
+    <MESSAGE value="Day 28 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 28 start" />
   </component>
 </project>
