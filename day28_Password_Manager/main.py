@@ -18,12 +18,15 @@ canvas.grid(column=1, row=0)
 web_label = Label(text="Website:")
 web_label.grid(column=0, row=1)
 web_entry = Entry(width=35)
+web_entry.focus()
 web_entry.grid(column=1, row=1, columnspan=2, sticky="EW")
 
 # email/username section
 user_label = Label(text="Email/Username:")
 user_label.grid(column=0, row=2)
 user_entry = Entry(width=35)
+# insert string at the very begging of the entry
+user_entry.insert(0, "otienor986@gmail.com")
 user_entry.grid(column=1, row=2, columnspan=2, sticky="EW")
 
 # password section
