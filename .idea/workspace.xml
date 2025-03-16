@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="UI Layout">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Save password complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28_Password_Manager/data.tx" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/data.tx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day28_Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741926953294</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Save password complete">
+      <option name="closed" value="true" />
+      <created>1741993939182</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741993939182</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +224,7 @@
     <MESSAGE value="Day 28 start" />
     <MESSAGE value="UI Setup" />
     <MESSAGE value="UI Layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Layout" />
+    <MESSAGE value="Save password complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save password complete" />
   </component>
 </project>
