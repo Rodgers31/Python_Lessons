@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Empty password info">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 30 start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day28_Password_Manager/data.tx" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/data.tx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day28_Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day30_Error_Exceptions/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day30_Error_Exceptions/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742087016619</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Password generator complete">
+      <option name="closed" value="true" />
+      <created>1742159797411</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742159797411</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Day 30 start">
+      <option name="closed" value="true" />
+      <created>1742165829441</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742165829441</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +249,8 @@
     <MESSAGE value="UI Layout" />
     <MESSAGE value="Save password complete" />
     <MESSAGE value="Empty password info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Empty password info" />
+    <MESSAGE value="Password generator complete" />
+    <MESSAGE value="Day 30 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 30 start" />
   </component>
 </project>
