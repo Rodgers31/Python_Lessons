@@ -2,13 +2,17 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
+
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 
 def generate_password():
-    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
-               'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+               'v',
+               'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q',
+               'R',
                'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
@@ -54,22 +58,35 @@ def generate_password():
 
 
 def save_password():
-    web = web_entry.get()
+    website = web_entry.get()
     email = user_entry.get()
     pass_w = pass_entry.get()
-    print(len(web))
-    if len(web) == 0 or len(pass_w) == 0:
-        print(web, pass_w)
+
+    new_data = {website: {
+            "email": email,
+            "password": pass_w
+        }
+    }
+    if len(website) == 0 or len(pass_w) == 0:
+        print(website, pass_w)
         messagebox.showinfo(title="Oops", message=f"Please dont leave any fields empty!")
 
     else:
 
-        is_ok = messagebox.askokcancel(title=web, message=f"These are the details entered: \nEmail: {email} "
-                                                          f"\nPassword: {pass_w} \nIs it ok to save?")
+        # is_ok = messagebox.askokcancel(title=web, message=f"These are the details entered: \nEmail: {email} "
+        # write json data                                                   f"\nPassword: {pass_w} \nIs it ok to save?")
+        # read mode
+        with open("data.json", mode="r") as data_file:
+            # json.dump(new_data, data_file, indent=4)
+            # reading old data
+            data = json.load(data_file)
+            # updating old data with new data
+            data.update(new_data)
+        # write mode
 
-        if is_ok:
-            with open("data.tx", mode="a") as file:
-                file.write(f"{web} | {email} | {pass_w} \n")
+        with open("data.json", "w") as data_file:
+            # saving daya
+            json.dump(data, data_file, indent=4)
 
             web_entry.delete(0, 'end')
             pass_entry.delete(0, "end")
