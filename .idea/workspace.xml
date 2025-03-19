@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="saving and loading data in json format">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="data saving try updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day28_Password_Manager/data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day28_Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/main.py" afterDir="false" />
@@ -239,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742182536499</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="data saving try updated">
+      <option name="closed" value="true" />
+      <created>1742352096198</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1742352096198</updated>
+    </task>
+    <task id="LOCAL-00022" summary="data saving try updated">
+      <option name="closed" value="true" />
+      <created>1742352105424</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1742352105424</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +287,7 @@
     <MESSAGE value="Day 30 start" />
     <MESSAGE value="5 main key words" />
     <MESSAGE value="saving and loading data in json format" />
-    <option name="LAST_COMMIT_MESSAGE" value="saving and loading data in json format" />
+    <MESSAGE value="data saving try updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="data saving try updated" />
   </component>
 </project>

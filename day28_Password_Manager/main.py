@@ -53,6 +53,23 @@ def generate_password():
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
+def pass_search():
+    website = web_entry.get()
+    try:
+        with open("data.json", mode="r") as data_file:
+            data = json.load(data_file)
+        print(data)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message="No data file Found.")
+    else:
+        try:
+            for _ in data:
+                email = data[f"{website}"]["email"]
+                password = data[f"{website}"]["password"]
+                messagebox.showinfo(title=website, message=f"Email: {email} \nPassword: {password}")
+        except KeyError:
+            messagebox.showinfo(title=f"{website}", message=f"{website} not yet stored")
+
 
 def save_password():
     website = web_entry.get()
@@ -60,9 +77,9 @@ def save_password():
     pass_w = pass_entry.get()
 
     new_data = {website: {
-            "email": email,
-            "password": pass_w
-        }
+        "email": email,
+        "password": pass_w
+    }
     }
     if len(website) == 0 or len(pass_w) == 0:
         messagebox.showinfo(title="Oops", message=f"Please dont leave any fields empty!")
@@ -108,9 +125,11 @@ canvas.grid(column=1, row=0)
 # website section
 web_label = Label(text="Website:")
 web_label.grid(column=0, row=1)
-web_entry = Entry(width=35)
+web_entry = Entry(width=21)
 web_entry.focus()
 web_entry.grid(column=1, row=1, columnspan=2, sticky="EW")
+web_button = Button(text="Search", command=pass_search)
+web_button.grid(column=2, row=1, sticky="EW")
 
 # email/username section
 user_label = Label(text="Email/Username:")
