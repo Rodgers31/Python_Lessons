@@ -20,9 +20,6 @@ def generate_password():
     nr_letters = random.randint(8, 10)
     nr_symbols = random.randint(2, 4)
     nr_numbers = random.randint(2, 4)
-    print(nr_letters)
-    print(nr_symbols)
-    print(nr_numbers)
 
     # ****Changed to list comprehension****
     # password_list = []
@@ -68,7 +65,6 @@ def save_password():
         }
     }
     if len(website) == 0 or len(pass_w) == 0:
-        print(website, pass_w)
         messagebox.showinfo(title="Oops", message=f"Please dont leave any fields empty!")
 
     else:
@@ -76,18 +72,24 @@ def save_password():
         # is_ok = messagebox.askokcancel(title=web, message=f"These are the details entered: \nEmail: {email} "
         # write json data                                                   f"\nPassword: {pass_w} \nIs it ok to save?")
         # read mode
-        with open("data.json", mode="r") as data_file:
-            # json.dump(new_data, data_file, indent=4)
-            # reading old data
-            data = json.load(data_file)
+        try:
+            with open("data.json", mode="r") as data_file:
+                # json.dump(new_data, data_file, indent=4)
+                # reading old data
+                data = json.load(data_file)
+            # write mode
+        except FileNotFoundError:
+            with open("data.json", "w") as data_file:
+                # saving daya
+                json.dump(new_data, data_file, indent=4)
+        else:
             # updating old data with new data
             data.update(new_data)
-        # write mode
 
-        with open("data.json", "w") as data_file:
-            # saving daya
-            json.dump(data, data_file, indent=4)
-
+            with open("data.json", "w") as data_file:
+                # saving daya
+                json.dump(data, data_file, indent=4)
+        finally:
             web_entry.delete(0, 'end')
             pass_entry.delete(0, "end")
 

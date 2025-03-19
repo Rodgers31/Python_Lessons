@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="5 main key words">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="saving and loading data in json format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day30_Error_Exceptions/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day30_Error_Exceptions/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28_Password_Manager/data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day28_Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day28_Password_Manager/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.KM_converter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.KM_converter.executor": "Run",
+    "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.playground.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Day27_Tkinter" />
@@ -230,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742170315667</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="saving and loading data in json format">
+      <option name="closed" value="true" />
+      <created>1742182536499</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1742182536499</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +270,7 @@
     <MESSAGE value="Password generator complete" />
     <MESSAGE value="Day 30 start" />
     <MESSAGE value="5 main key words" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 main key words" />
+    <MESSAGE value="saving and loading data in json format" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving and loading data in json format" />
   </component>
 </project>
