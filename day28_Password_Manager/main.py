@@ -51,7 +51,7 @@ def generate_password():
     pyperclip.copy(password)
 
 
-# ---------------------------- SAVE PASSWORD ------------------------------- #
+# ---------------------------- FIND PASSWORD ------------------------------- #
 
 def pass_search():
     website = web_entry.get()
@@ -70,7 +70,7 @@ def pass_search():
         except KeyError:
             messagebox.showinfo(title=f"{website}", message=f"{website} not yet stored")
 
-
+# ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_password():
     website = web_entry.get()
     email = user_entry.get()
@@ -127,7 +127,7 @@ web_label = Label(text="Website:")
 web_label.grid(column=0, row=1)
 web_entry = Entry(width=21)
 web_entry.focus()
-web_entry.grid(column=1, row=1, columnspan=2, sticky="EW")
+web_entry.grid(column=1, row=1, columnspan=1, sticky="EW")
 web_button = Button(text="Search", command=pass_search)
 web_button.grid(column=2, row=1, sticky="EW")
 
