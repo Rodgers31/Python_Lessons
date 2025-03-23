@@ -1,4 +1,3 @@
-import json
 import random
 from tkinter import *
 
@@ -39,7 +38,7 @@ def is_known():
     global to_learn
     to_learn.remove(current_card)
     remove_data = pandas.DataFrame(to_learn)
-    remove_data.to_csv("data/words_to_learn.csv")
+    remove_data.to_csv("data/words_to_learn.csv", index=False)
     generate()
 
 

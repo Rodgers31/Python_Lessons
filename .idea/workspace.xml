@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="flip function">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="saving learned data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash-card-project/data/words_to_learn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flash-card-project/data/words_to_learn.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flash-card-project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/flash-card-project/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742694170404</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="saving learned data">
+      <option name="closed" value="true" />
+      <created>1742702710250</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742702710250</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,6 +342,7 @@
     <MESSAGE value="UI Built" />
     <MESSAGE value="my generate function" />
     <MESSAGE value="flip function" />
-    <option name="LAST_COMMIT_MESSAGE" value="flip function" />
+    <MESSAGE value="saving learned data" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving learned data" />
   </component>
 </project>
