@@ -1,3 +1,4 @@
+import json
 import random
 from tkinter import *
 
@@ -5,18 +6,21 @@ import pandas
 
 BACKGROUND_COLOR = "#B1DDC6"
 
-data = pandas.read_csv("data/french_words.csv")
-# the type of the key-value pairs can be customized with the parameters
-# ‘records’ : list like [{column -> value}, … , {column -> value}]
-to_learn = data.to_dict(orient="records")
-current_card = {}
+try:
+    data = pandas.read_csv("data/words_to_learn.csv")
+    # the type of the key-value pairs can be customized with the parameters
+    # ‘records’ : list like [{column -> value}, … , {column -> value}]
+except FileNotFoundError:
+    data = pandas.read_csv("data/french_words.csv")
+else:
+    to_learn = data.to_dict(orient="records")
+    current_card = {}
 
 
 def generate():
     global current_card, flip_timer
     window.after_cancel(flip_timer)
     choice = (random.choice(to_learn))
-    print(choice)
     canvas.itemconfig(the_word, text=choice["French"], fill="black")
     canvas.itemconfig(the_title, text="French", fill="black")
     canvas.itemconfig(card, image=card_front_image)
@@ -29,7 +33,14 @@ def flip():
     canvas.itemconfig(card, image=card_back_img)
     canvas.itemconfig(the_word, text=current_card["English"], fill="white")
     canvas.itemconfig(the_title, text="English", fill="white")
-    current_card = {}
+
+
+def is_known():
+    global to_learn
+    to_learn.remove(current_card)
+    remove_data = pandas.DataFrame(to_learn)
+    remove_data.to_csv("data/words_to_learn.csv")
+    generate()
 
 
 window = Tk()
@@ -53,7 +64,7 @@ unknown_button.grid(row=1, column=0)
 
 
 check_image = PhotoImage(file="images/right.png")
-known_button = Button(image=check_image, highlightthickness=0, command=generate)
+known_button = Button(image=check_image, highlightthickness=0, command=is_known)
 known_button.grid(column=1, row=1)
 
 generate()
