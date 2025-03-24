@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="My quote solution">
-      <change afterPath="$PROJECT_DIR$/Day32 Birthday Wishes/teacherSolution.py" afterDir="false" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Birthday wish project solution">
+      <change afterPath="$PROJECT_DIR$/Birthday_wisher/letter_templates/teacherSolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-33/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +60,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rodge\Downloads\Python_Lesson\Birthday_wisher" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson" />
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson\Birthday_wisher" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\flash-card-project" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Day27_Tkinter" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\day28_Password_Manager" />
@@ -330,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742762945842</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Birthday wish project solution">
+      <option name="closed" value="true" />
+      <created>1742771486034</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1742771486034</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Buttons and Inputs" />
     <MESSAGE value="Kilometers converter my solution" />
     <MESSAGE value="pomodoro start" />
     <MESSAGE value="Countdown function" />
@@ -370,6 +378,7 @@
     <MESSAGE value="Day 32 start" />
     <MESSAGE value="Day 32 smtp setup" />
     <MESSAGE value="My quote solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="My quote solution" />
+    <MESSAGE value="Birthday wish project solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Birthday wish project solution" />
   </component>
 </project>
