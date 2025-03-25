@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 33 start">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="kanye quotes start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanye_quotes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/kanye_quotes/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson\kanye_quotes" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Birthday_wisher" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\flash-card-project" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Day27_Tkinter" />
-      <recent name="C:\Users\rodge\Downloads\Python_Lesson\day28_Password_Manager" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -353,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742876819795</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="kanye quotes start">
+      <option name="closed" value="true" />
+      <created>1742877508189</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1742877508189</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pomodoro start" />
     <MESSAGE value="Countdown function" />
     <MESSAGE value="Countdown breaks" />
     <MESSAGE value="reset button" />
@@ -393,6 +401,7 @@
     <MESSAGE value="My quote solution" />
     <MESSAGE value="Birthday wish project solution" />
     <MESSAGE value="Day 33 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 33 start" />
+    <MESSAGE value="kanye quotes start" />
+    <option name="LAST_COMMIT_MESSAGE" value="kanye quotes start" />
   </component>
 </project>
