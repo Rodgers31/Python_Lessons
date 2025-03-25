@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Birthday wish project solution">
-      <change afterPath="$PROJECT_DIR$/Birthday_wisher/letter_templates/teacherSolution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-33/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 33 start">
+      <change beforePath="$PROJECT_DIR$/Day33/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742771486034</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Day 33 start">
+      <option name="closed" value="true" />
+      <created>1742786043658</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1742786043658</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kilometers converter my solution" />
     <MESSAGE value="pomodoro start" />
     <MESSAGE value="Countdown function" />
     <MESSAGE value="Countdown breaks" />
@@ -379,6 +384,7 @@
     <MESSAGE value="Day 32 smtp setup" />
     <MESSAGE value="My quote solution" />
     <MESSAGE value="Birthday wish project solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Birthday wish project solution" />
+    <MESSAGE value="Day 33 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 33 start" />
   </component>
 </project>
