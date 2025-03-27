@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="iss overhead start">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/issoverhead/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/issoverhead/main.py" afterDir="false" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="iss overhead complete">
+      <change beforePath="$PROJECT_DIR$/quizzler_app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson\quizzler_app" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\issoverhead" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\kanye_quotes" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Birthday_wisher" />
-      <recent name="C:\Users\rodge\Downloads\Python_Lesson\flash-card-project" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -394,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742956163146</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="iss overhead complete">
+      <option name="closed" value="true" />
+      <created>1743044284911</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1743044284911</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day 28 start" />
     <MESSAGE value="UI Setup" />
     <MESSAGE value="UI Layout" />
     <MESSAGE value="Save password complete" />
@@ -434,6 +440,7 @@
     <MESSAGE value="completed get call" />
     <MESSAGE value="parameters on API" />
     <MESSAGE value="iss overhead start" />
-    <option name="LAST_COMMIT_MESSAGE" value="iss overhead start" />
+    <MESSAGE value="iss overhead complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="iss overhead complete" />
   </component>
 </project>
