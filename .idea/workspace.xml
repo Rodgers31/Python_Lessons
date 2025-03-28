@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="added api call for data">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 34">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quizzler_app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizzler_app/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/quiz_brain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quizzler_app/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +64,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\quizzler_app" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\issoverhead" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\kanye_quotes" />
-      <recent name="C:\Users\rodge\Downloads\Python_Lesson" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\Birthday_wisher" />
     </key>
   </component>
@@ -422,7 +423,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743101608231</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="user interface setup">
+      <option name="closed" value="true" />
+      <created>1743109322155</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1743109322155</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Day 34">
+      <option name="closed" value="true" />
+      <created>1743111024305</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1743111024305</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,8 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Save password complete" />
-    <MESSAGE value="Empty password info" />
     <MESSAGE value="Password generator complete" />
     <MESSAGE value="Day 30 start" />
     <MESSAGE value="5 main key words" />
@@ -462,6 +477,8 @@
     <MESSAGE value="iss overhead complete" />
     <MESSAGE value="quizzer app start" />
     <MESSAGE value="added api call for data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added api call for data" />
+    <MESSAGE value="user interface setup" />
+    <MESSAGE value="Day 34" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 34" />
   </component>
 </project>
