@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 34">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="completed quiz app">
+      <change afterPath="$PROJECT_DIR$/rain_alert/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizzler_app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizzler_app/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/quiz_brain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizzler_app/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -439,7 +437,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743111024305</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="completed quiz app">
+      <option name="closed" value="true" />
+      <created>1743128830898</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1743128830898</updated>
+    </task>
+    <task id="LOCAL-00046" summary="completed quiz app">
+      <option name="closed" value="true" />
+      <created>1743128839232</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1743128839232</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Password generator complete" />
     <MESSAGE value="Day 30 start" />
     <MESSAGE value="5 main key words" />
     <MESSAGE value="saving and loading data in json format" />
@@ -479,6 +492,7 @@
     <MESSAGE value="added api call for data" />
     <MESSAGE value="user interface setup" />
     <MESSAGE value="Day 34" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 34" />
+    <MESSAGE value="completed quiz app" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed quiz app" />
   </component>
 </project>
