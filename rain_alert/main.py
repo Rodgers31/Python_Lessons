@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv("weather.env")
 parameters = {
-    "lat": 43.038902,
+    "lat": 47.038902,
     "lon": -87.906471,
     "appid": os.getenv("weather_api_key"),
     "cnt": 4
@@ -20,6 +20,16 @@ for weather in data["list"]:
     if int(condition_code) < 700:
         will_rain = True
 
+account_sid = os.getenv("account_sid")
+auth_token = os.getenv("auth_token")
 
 if will_rain:
-    print("Bring an umbrella")
+    client = Client(account_sid, auth_token)
+    message = client.messages.create(
+        body="It's going to rain today. Remember to bring an umbrella.",
+        from_="whatsapp:+14155238886",
+        to="whatsapp:+14147797306",
+    )
+
+    print(message.body)
+    print(message.status)
