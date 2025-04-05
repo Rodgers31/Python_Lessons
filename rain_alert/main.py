@@ -11,6 +11,7 @@ parameters = {
     "cnt": 4
 }
 
+
 condition_codes = []
 will_rain = False
 response = requests.get(url="https://api.openweathermap.org/data/2.5/forecast?", params=parameters)
