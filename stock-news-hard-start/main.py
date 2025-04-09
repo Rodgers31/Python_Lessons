@@ -72,13 +72,13 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 ## STEP 2: Use https://newsapi.org/docs/endpoints/everything
 # Instead of printing ("Get News"), actually fetch the first 3 articles for the COMPANY_NAME. 
 #HINT 1: Think about using the Python Slice Operator
-def news_message():
+def news_message(y_close, yy_close, difference):
     parameters = {
         "q": STOCK,
         "apiKey": os.getenv("news_api")
 
     }
-    direct = ''
+
     if y_close > yy_close:
         direct = '🔺'
     else:
@@ -99,7 +99,11 @@ def news_message():
             from_="whatsapp:+14155238886",
             to="whatsapp:+14147797306",
         )
+        print(message.body)
+        print(message.status)
 
+
+news_message(10, 25, 10)
 ## STEP 3: Use twilio.com/docs/sms/quickstart/python
 # Send a separate message with each article's title and description to your phone number. 
 #HINT 1: Consider using a List Comprehension.
