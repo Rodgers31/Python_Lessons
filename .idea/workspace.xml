@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="stored key in env instead">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="completed teacher solution">
+      <change afterPath="$PROJECT_DIR$/stock-news-hard-start/project_config.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rain_alert/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/rain_alert/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rain_alert/weather.env" beforeDir="false" afterPath="$PROJECT_DIR$/rain_alert/weather.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,118 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Buttons and Inputs">
-      <option name="closed" value="true" />
-      <created>1741548507523</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1741548507523</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Kilometers converter my solution">
-      <option name="closed" value="true" />
-      <created>1741579163169</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1741579163169</updated>
-    </task>
-    <task id="LOCAL-00005" summary="pomodoro start">
-      <option name="closed" value="true" />
-      <created>1741658203458</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1741658203458</updated>
-    </task>
-    <task id="LOCAL-00006" summary="UI Setup">
-      <option name="closed" value="true" />
-      <created>1741665800181</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1741665800181</updated>
-    </task>
-    <task id="LOCAL-00007" summary="UI Setup">
-      <option name="closed" value="true" />
-      <created>1741753001069</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1741753001069</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Countdown function">
-      <option name="closed" value="true" />
-      <created>1741828973978</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1741828973978</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Countdown breaks">
-      <option name="closed" value="true" />
-      <created>1741838241631</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1741838241631</updated>
-    </task>
-    <task id="LOCAL-00010" summary="reset button">
-      <option name="closed" value="true" />
-      <created>1741840567986</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1741840567986</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Day 28 start">
-      <option name="closed" value="true" />
-      <created>1741907727197</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1741907727197</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Day 28 start">
-      <option name="closed" value="true" />
-      <created>1741907739242</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1741907739242</updated>
-    </task>
-    <task id="LOCAL-00013" summary="UI Setup">
-      <option name="closed" value="true" />
-      <created>1741912150852</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1741912150852</updated>
-    </task>
-    <task id="LOCAL-00014" summary="UI Layout">
-      <option name="closed" value="true" />
-      <created>1741926953294</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1741926953294</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Save password complete">
-      <option name="closed" value="true" />
-      <created>1741993939182</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1741993939182</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Empty password info">
-      <option name="closed" value="true" />
-      <created>1742087016619</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1742087016619</updated>
     </task>
     <task id="LOCAL-00017" summary="Password generator complete">
       <option name="closed" value="true" />
@@ -478,7 +366,119 @@
       <option name="project" value="LOCAL" />
       <updated>1743642547135</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="product completed">
+      <option name="closed" value="true" />
+      <created>1743653744302</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1743653744302</updated>
+    </task>
+    <task id="LOCAL-00053" summary="product completed">
+      <option name="closed" value="true" />
+      <created>1743734570442</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1743734570442</updated>
+    </task>
+    <task id="LOCAL-00054" summary="product completed">
+      <option name="closed" value="true" />
+      <created>1743823425410</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1743823425410</updated>
+    </task>
+    <task id="LOCAL-00055" summary="product completed">
+      <option name="closed" value="true" />
+      <created>1743823436547</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1743823436548</updated>
+    </task>
+    <task id="LOCAL-00056" summary="product completed">
+      <option name="closed" value="true" />
+      <created>1743823446027</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1743823446027</updated>
+    </task>
+    <task id="LOCAL-00057" summary="product completed">
+      <option name="closed" value="true" />
+      <created>1743823455112</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1743823455112</updated>
+    </task>
+    <task id="LOCAL-00058" summary="stock news start">
+      <option name="closed" value="true" />
+      <created>1743991324445</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1743991324446</updated>
+    </task>
+    <task id="LOCAL-00059" summary="completed getting stock">
+      <option name="closed" value="true" />
+      <created>1744161932776</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1744161932777</updated>
+    </task>
+    <task id="LOCAL-00060" summary="completed getting stock">
+      <option name="closed" value="true" />
+      <created>1744161952850</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1744161952850</updated>
+    </task>
+    <task id="LOCAL-00061" summary="completed stock app">
+      <option name="closed" value="true" />
+      <created>1744163991344</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1744163991344</updated>
+    </task>
+    <task id="LOCAL-00062" summary="completed the messages">
+      <option name="closed" value="true" />
+      <created>1744164967069</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1744164967069</updated>
+    </task>
+    <task id="LOCAL-00063" summary="project complete">
+      <option name="closed" value="true" />
+      <created>1744247731693</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1744247731693</updated>
+    </task>
+    <task id="LOCAL-00064" summary="teacher solution start">
+      <option name="closed" value="true" />
+      <created>1744248685231</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1744248685231</updated>
+    </task>
+    <task id="LOCAL-00065" summary="completed teacher solution">
+      <option name="closed" value="true" />
+      <created>1744251875471</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1744251875471</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -496,14 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="saving and loading data in json format" />
-    <MESSAGE value="data saving try updated" />
-    <MESSAGE value="password search and exceptions" />
-    <MESSAGE value="completed code" />
-    <MESSAGE value="UI Built" />
-    <MESSAGE value="my generate function" />
-    <MESSAGE value="flip function" />
-    <MESSAGE value="saving learned data" />
     <MESSAGE value="Day 32 start" />
     <MESSAGE value="Day 32 smtp setup" />
     <MESSAGE value="My quote solution" />
@@ -521,6 +513,14 @@
     <MESSAGE value="completed quiz app" />
     <MESSAGE value="getting the id for weather" />
     <MESSAGE value="stored key in env instead" />
-    <option name="LAST_COMMIT_MESSAGE" value="stored key in env instead" />
+    <MESSAGE value="product completed" />
+    <MESSAGE value="stock news start" />
+    <MESSAGE value="completed getting stock" />
+    <MESSAGE value="completed stock app" />
+    <MESSAGE value="completed the messages" />
+    <MESSAGE value="project complete" />
+    <MESSAGE value="teacher solution start" />
+    <MESSAGE value="completed teacher solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed teacher solution" />
   </component>
 </project>
