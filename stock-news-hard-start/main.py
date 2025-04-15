@@ -93,6 +93,7 @@ close_percent = (5 * float(y_close) / 100)
 
 yy_close = tesla_two_yesterday['4. close']
 
+
 difference = float(y_close) - float(yy_close)
 if close_percent > difference:
     news_message(y_close, yy_close, difference)
