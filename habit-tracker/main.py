@@ -31,20 +31,34 @@ user_params = {
 # response = requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 # print(response.text)
 
-today = datetime.now()
-
+today = datetime(year=2025, month=4, day=14)
 post_pixela = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}"
 
 # check doc - https://www.w3schools.com/python/python_datetime.asp
+# **post request ***
+# add_pixel = {
+#     "date": today.strftime("%Y%m%d"),
+#     "quantity": "5"
+# }
+#
+# headers = {
+#     "X-USER-TOKEN": TOKEN
+# }
+#
+# pixela = requests.post(url=post_pixela, json=add_pixel, headers=headers)
+# print(pixela.text)
+# **put request ***
+update_pixel = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}/{today.strftime("%Y%m%d")}"
 
-add_pixel = {
-    "date": today.strftime("%Y%m%d"),
-    "quantity": "1"
+pixel_data = {
+    "quantity": "2"
 }
 
 headers = {
     "X-USER-TOKEN": TOKEN
 }
 
-pixela = requests.post(url=post_pixela, json=add_pixel, headers=headers)
-print(pixela.text)
+response = requests.put(url=update_pixel, json=pixel_data, headers=headers)
+print(response.text)
+
+
