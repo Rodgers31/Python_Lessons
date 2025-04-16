@@ -1,5 +1,5 @@
 import requests
-import datetime as dt
+from datetime import datetime
 
 USERNAME = "rodgers"
 TOKEN = "ncsjfg#%ssnkfbwui3312"
@@ -31,15 +31,14 @@ user_params = {
 # response = requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 # print(response.text)
 
-today = dt.datetime.today()
-year = today.year
-month = today.month
-day = today.day
+today = datetime.now()
 
 post_pixela = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}"
 
+# check doc - https://www.w3schools.com/python/python_datetime.asp
+
 add_pixel = {
-    "date": f"{year}{month:02d}{day}",
+    "date": today.strftime("%Y%m%d"),
     "quantity": "1"
 }
 
