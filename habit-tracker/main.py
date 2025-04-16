@@ -47,18 +47,23 @@ post_pixela = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}"
 #
 # pixela = requests.post(url=post_pixela, json=add_pixel, headers=headers)
 # print(pixela.text)
-# **put request ***
-update_pixel = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}/{today.strftime("%Y%m%d")}"
+# update_pixel = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}/{today.strftime("%Y%m%d")}"
+#
+# pixel_data = {
+#     "quantity": "2"
+# }
+#
+# headers = {
+#     "X-USER-TOKEN": TOKEN
+# }
+#
+# response = requests.put(url=update_pixel, json=pixel_data, headers=headers)
+# print(response.text)
 
-pixel_data = {
-    "quantity": "2"
-}
+delete_pixel = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}/{today.strftime("%Y%m%d")}"
 
-headers = {
+header = {
     "X-USER-TOKEN": TOKEN
 }
-
-response = requests.put(url=update_pixel, json=pixel_data, headers=headers)
-print(response.text)
-
-
+remove = requests.delete(url=delete_pixel, headers=header)
+print(remove.text)

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="post request">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="put request">
       <change beforePath="$PROJECT_DIR$/habit-tracker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/habit-tracker/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00024" summary="completed code">
-      <option name="closed" value="true" />
-      <created>1742436875472</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1742436875472</updated>
     </task>
     <task id="LOCAL-00025" summary="UI Built">
       <option name="closed" value="true" />
@@ -477,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744774498128</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="put request">
+      <option name="closed" value="true" />
+      <created>1744778093000</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1744778093000</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -495,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Birthday wish project solution" />
     <MESSAGE value="Day 33 start" />
     <MESSAGE value="kanye quotes start" />
     <MESSAGE value="completed get call" />
@@ -520,6 +518,7 @@
     <MESSAGE value="starting habit tracker" />
     <MESSAGE value="finished pixel tracker" />
     <MESSAGE value="post request" />
-    <option name="LAST_COMMIT_MESSAGE" value="post request" />
+    <MESSAGE value="put request" />
+    <option name="LAST_COMMIT_MESSAGE" value="put request" />
   </component>
 </project>
