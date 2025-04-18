@@ -57,7 +57,6 @@ post_pixela = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}"
 #     "X-USER-TOKEN": TOKEN
 # }
 #
-
 # response = requests.put(url=update_pixel, json=pixel_data, headers=headers)
 # print(response.text)
 
