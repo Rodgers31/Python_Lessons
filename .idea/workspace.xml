@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="delete request">
-      <change beforePath="$PROJECT_DIR$/habit-tracker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/habit-tracker/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00031" summary="My quote solution">
-      <option name="closed" value="true" />
-      <created>1742762945842</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1742762945842</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Birthday wish project solution">
-      <option name="closed" value="true" />
-      <created>1742771486034</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1742771486034</updated>
     </task>
     <task id="LOCAL-00033" summary="Day 33 start">
       <option name="closed" value="true" />
@@ -476,7 +460,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744948745420</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="delete request">
+      <option name="closed" value="true" />
+      <created>1744948763040</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1744948763040</updated>
+    </task>
+    <task id="LOCAL-00081" summary="delete request">
+      <option name="closed" value="true" />
+      <created>1744948770343</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1744948770343</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="UnknownFeatures">
