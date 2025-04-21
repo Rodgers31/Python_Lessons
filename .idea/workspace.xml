@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="delete request" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="delete request">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Day 33 start">
-      <option name="closed" value="true" />
-      <created>1742876819795</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1742876819795</updated>
     </task>
     <task id="LOCAL-00035" summary="kanye quotes start">
       <option name="closed" value="true" />
@@ -474,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745035235426</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="delete request">
+      <option name="closed" value="true" />
+      <created>1745194638849</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1745194638849</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="UnknownFeatures">
