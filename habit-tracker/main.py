@@ -60,6 +60,7 @@ post_pixela = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}"
 # response = requests.put(url=update_pixel, json=pixel_data, headers=headers)
 # print(response.text)
 
+
 delete_pixel = f"{pixela_endpoint}/{USERNAME}/graphs/{ID}/{today.strftime("%Y%m%d")}"
 
 header = {
