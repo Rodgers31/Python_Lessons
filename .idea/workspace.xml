@@ -84,30 +84,6 @@
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
     </task>
-    <task id="LOCAL-00035" summary="kanye quotes start">
-      <option name="closed" value="true" />
-      <created>1742877508189</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1742877508189</updated>
-    </task>
-    <task id="LOCAL-00036" summary="completed get call">
-      <option name="closed" value="true" />
-      <created>1742878068459</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1742878068459</updated>
-    </task>
-    <task id="LOCAL-00037" summary="completed get call">
-      <option name="closed" value="true" />
-      <created>1742952465789</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1742952465789</updated>
-    </task>
     <task id="LOCAL-00038" summary="parameters on API">
       <option name="closed" value="true" />
       <created>1742954655264</created>
@@ -476,7 +452,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745194638849</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="delete request">
+      <option name="closed" value="true" />
+      <created>1745194654846</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1745194654846</updated>
+    </task>
+    <task id="LOCAL-00085" summary="delete request">
+      <option name="closed" value="true" />
+      <created>1745370035883</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1745370035883</updated>
+    </task>
+    <task id="LOCAL-00086" summary="delete request">
+      <option name="closed" value="true" />
+      <created>1745370046512</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1745370046512</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="UnknownFeatures">
