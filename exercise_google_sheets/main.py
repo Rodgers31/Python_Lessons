@@ -6,7 +6,6 @@ from datetime import datetime
 URL = 'https://trackapi.nutritionix.com'
 load_dotenv('key.env')
 
-
 parameters = {
     'Content-Type': 'application/json',
     'x-app-id': os.getenv("ID"),
