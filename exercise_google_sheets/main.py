@@ -39,7 +39,10 @@ for values in result['exercises']:
             'calories': values["nf_calories"]
         }
     }
+    bearer_headers = {
+        "Authorization": "Bearer " + os.getenv("AUTH")
+    }
     sheety_end = "https://api.sheety.co/540b1e9afd000ccde8593508ff18f08c/myWorkouts/workouts"
-    workout = requests.post(url=sheety_end, json=workouts)
+    workout = requests.post(url=sheety_end, headers=bearer_headers, json=workouts)
     result = workout.json()
     print(result)
