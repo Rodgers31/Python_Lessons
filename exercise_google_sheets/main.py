@@ -26,4 +26,20 @@ parameters = {
 
 response = requests.post(url=URL, json=parameters, headers=headers)
 result = response.json()
-print(result)
+for values in result['exercises']:
+    date = datetime.now()
+    final_date = date.strftime("%x")
+    time = date.strftime("%X")
+    workouts = {
+        'workout': {
+            'date': final_date,
+            'time': time,
+            'exercise': values["user_input"],
+            'duration': values["duration_min"],
+            'calories': values["nf_calories"]
+        }
+    }
+    sheety_end = "https://api.sheety.co/540b1e9afd000ccde8593508ff18f08c/myWorkouts/workouts"
+    workout = requests.post(url=sheety_end, json=workouts)
+    result = workout.json()
+    print(result)
