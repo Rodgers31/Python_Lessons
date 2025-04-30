@@ -39,6 +39,7 @@ for values in result['exercises']:
             'calories': values["nf_calories"]
         }
     }
+
     bearer_headers = {
         "Authorization": "Bearer " + os.getenv("AUTH")
     }
