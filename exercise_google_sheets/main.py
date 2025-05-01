@@ -40,6 +40,7 @@ for values in result['exercises']:
         }
     }
 
+
     bearer_headers = {
         "Authorization": "Bearer " + os.getenv("AUTH")
     }
