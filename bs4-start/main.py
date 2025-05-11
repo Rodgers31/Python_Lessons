@@ -10,7 +10,6 @@ soup = BeautifulSoup(contents, "html.parser")
 # print(soup.title.name)
 # print(soup.title.string)
 
-
 all_anchor_tags = soup.find_all(name="p")
 print(all_anchor_tags)
 for tag in all_anchor_tags:
