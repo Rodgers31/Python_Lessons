@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="delete request">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 45 live website-scrapping with beautiful soup">
+      <change afterPath="$PROJECT_DIR$/100 movies/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_google_sheets/key.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,23 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.KM_converter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quoteSend.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teacherSolution.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.KM_converter.executor": "Run",
+    "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.data_manager.executor": "Run",
+    "Python.flight_search.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.quiz_brain.executor": "Run",
+    "Python.quoteSend.executor": "Run",
+    "Python.teacherSolution.executor": "Run",
+    "Python.ui.executor": "Run",
+    "Python.websiteScrapping.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/rodge/Downloads/Python_Lesson/flight-deals-start"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rodge\Downloads\Python_Lesson\flight-deals-start" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rodge\Downloads\Python_Lesson" />
       <recent name="C:\Users\rodge\Downloads\Python_Lesson\quizzler_app" />
@@ -83,278 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00038" summary="parameters on API">
-      <option name="closed" value="true" />
-      <created>1742954655264</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1742954655264</updated>
-    </task>
-    <task id="LOCAL-00039" summary="iss overhead start">
-      <option name="closed" value="true" />
-      <created>1742956163146</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1742956163146</updated>
-    </task>
-    <task id="LOCAL-00040" summary="iss overhead complete">
-      <option name="closed" value="true" />
-      <created>1743044284911</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1743044284911</updated>
-    </task>
-    <task id="LOCAL-00041" summary="quizzer app start">
-      <option name="closed" value="true" />
-      <created>1743045624521</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1743045624521</updated>
-    </task>
-    <task id="LOCAL-00042" summary="added api call for data">
-      <option name="closed" value="true" />
-      <created>1743101608231</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1743101608231</updated>
-    </task>
-    <task id="LOCAL-00043" summary="user interface setup">
-      <option name="closed" value="true" />
-      <created>1743109322155</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1743109322155</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Day 34">
-      <option name="closed" value="true" />
-      <created>1743111024305</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1743111024305</updated>
-    </task>
-    <task id="LOCAL-00045" summary="completed quiz app">
-      <option name="closed" value="true" />
-      <created>1743128830898</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1743128830898</updated>
-    </task>
-    <task id="LOCAL-00046" summary="completed quiz app">
-      <option name="closed" value="true" />
-      <created>1743128839232</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1743128839232</updated>
-    </task>
-    <task id="LOCAL-00047" summary="completed quiz app">
-      <option name="closed" value="true" />
-      <created>1743221393921</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1743221393921</updated>
-    </task>
-    <task id="LOCAL-00048" summary="completed quiz app">
-      <option name="closed" value="true" />
-      <created>1743300918553</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1743300918553</updated>
-    </task>
-    <task id="LOCAL-00049" summary="completed quiz app">
-      <option name="closed" value="true" />
-      <created>1743392011154</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1743392011154</updated>
-    </task>
-    <task id="LOCAL-00050" summary="getting the id for weather">
-      <option name="closed" value="true" />
-      <created>1743563117729</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1743563117731</updated>
-    </task>
-    <task id="LOCAL-00051" summary="stored key in env instead">
-      <option name="closed" value="true" />
-      <created>1743642547135</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1743642547135</updated>
-    </task>
-    <task id="LOCAL-00052" summary="product completed">
-      <option name="closed" value="true" />
-      <created>1743653744302</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1743653744302</updated>
-    </task>
-    <task id="LOCAL-00053" summary="product completed">
-      <option name="closed" value="true" />
-      <created>1743734570442</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1743734570442</updated>
-    </task>
-    <task id="LOCAL-00054" summary="product completed">
-      <option name="closed" value="true" />
-      <created>1743823425410</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1743823425410</updated>
-    </task>
-    <task id="LOCAL-00055" summary="product completed">
-      <option name="closed" value="true" />
-      <created>1743823436547</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1743823436548</updated>
-    </task>
-    <task id="LOCAL-00056" summary="product completed">
-      <option name="closed" value="true" />
-      <created>1743823446027</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1743823446027</updated>
-    </task>
-    <task id="LOCAL-00057" summary="product completed">
-      <option name="closed" value="true" />
-      <created>1743823455112</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1743823455112</updated>
-    </task>
-    <task id="LOCAL-00058" summary="stock news start">
-      <option name="closed" value="true" />
-      <created>1743991324445</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1743991324446</updated>
-    </task>
-    <task id="LOCAL-00059" summary="completed getting stock">
-      <option name="closed" value="true" />
-      <created>1744161932776</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1744161932777</updated>
-    </task>
-    <task id="LOCAL-00060" summary="completed getting stock">
-      <option name="closed" value="true" />
-      <created>1744161952850</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1744161952850</updated>
-    </task>
-    <task id="LOCAL-00061" summary="completed stock app">
-      <option name="closed" value="true" />
-      <created>1744163991344</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1744163991344</updated>
-    </task>
-    <task id="LOCAL-00062" summary="completed the messages">
-      <option name="closed" value="true" />
-      <created>1744164967069</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1744164967069</updated>
-    </task>
-    <task id="LOCAL-00063" summary="project complete">
-      <option name="closed" value="true" />
-      <created>1744247731693</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1744247731693</updated>
-    </task>
-    <task id="LOCAL-00064" summary="teacher solution start">
-      <option name="closed" value="true" />
-      <created>1744248685231</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1744248685231</updated>
-    </task>
-    <task id="LOCAL-00065" summary="completed teacher solution">
-      <option name="closed" value="true" />
-      <created>1744251875471</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1744251875471</updated>
-    </task>
-    <task id="LOCAL-00066" summary="completed teacher solution">
-      <option name="closed" value="true" />
-      <created>1744679240208</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1744679240208</updated>
-    </task>
-    <task id="LOCAL-00067" summary="completed teacher solution">
-      <option name="closed" value="true" />
-      <created>1744679281082</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1744679281082</updated>
-    </task>
-    <task id="LOCAL-00068" summary="completed teacher solution">
-      <option name="closed" value="true" />
-      <created>1744679307898</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1744679307898</updated>
-    </task>
-    <task id="LOCAL-00069" summary="completed teacher solution">
-      <option name="closed" value="true" />
-      <created>1744679681658</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1744679681658</updated>
-    </task>
-    <task id="LOCAL-00070" summary="starting habit tracker">
-      <option name="closed" value="true" />
-      <created>1744684000671</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1744684000671</updated>
-    </task>
-    <task id="LOCAL-00071" summary="finished pixel tracker">
-      <option name="closed" value="true" />
-      <created>1744772233619</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1744772233619</updated>
     </task>
     <task id="LOCAL-00072" summary="post request">
       <option name="closed" value="true" />
@@ -476,7 +214,279 @@
       <option name="project" value="LOCAL" />
       <updated>1745370046512</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="exercise project start">
+      <option name="closed" value="true" />
+      <created>1745414041943</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1745414041943</updated>
+    </task>
+    <task id="LOCAL-00088" summary="exercise project start">
+      <option name="closed" value="true" />
+      <created>1745716099285</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1745716099286</updated>
+    </task>
+    <task id="LOCAL-00089" summary="exercise project start">
+      <option name="closed" value="true" />
+      <created>1745716112115</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1745716112115</updated>
+    </task>
+    <task id="LOCAL-00090" summary="exercise project start">
+      <option name="closed" value="true" />
+      <created>1745794383918</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1745794383919</updated>
+    </task>
+    <task id="LOCAL-00091" summary="exercise project start">
+      <option name="closed" value="true" />
+      <created>1745794401595</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1745794401595</updated>
+    </task>
+    <task id="LOCAL-00092" summary="exercise project start">
+      <option name="closed" value="true" />
+      <created>1745794420744</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1745794420744</updated>
+    </task>
+    <task id="LOCAL-00093" summary="exercise project">
+      <option name="closed" value="true" />
+      <created>1745884671303</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1745884671303</updated>
+    </task>
+    <task id="LOCAL-00094" summary="added request to sheety, to store values in spreadsheet">
+      <option name="closed" value="true" />
+      <created>1745886651947</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1745886651947</updated>
+    </task>
+    <task id="LOCAL-00095" summary="added request to sheety, to store values in spreadsheet">
+      <option name="closed" value="true" />
+      <created>1745889884296</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1745889884296</updated>
+    </task>
+    <task id="LOCAL-00096" summary="added request to sheety, to store values in spreadsheet">
+      <option name="closed" value="true" />
+      <created>1745978748137</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1745978748137</updated>
+    </task>
+    <task id="LOCAL-00097" summary="added request to sheety, to store values in spreadsheet">
+      <option name="closed" value="true" />
+      <created>1746139459212</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1746139459214</updated>
+    </task>
+    <task id="LOCAL-00098" summary="flight deal start">
+      <option name="closed" value="true" />
+      <created>1746223046769</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1746223046770</updated>
+    </task>
+    <task id="LOCAL-00099" summary="flight deal getting sheety data">
+      <option name="closed" value="true" />
+      <created>1746234312727</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1746234312727</updated>
+    </task>
+    <task id="LOCAL-00100" summary="flight deal getting sheety data and retuning">
+      <option name="closed" value="true" />
+      <created>1746330530827</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1746330530827</updated>
+    </task>
+    <task id="LOCAL-00101" summary="flight deal getting sheety data and retuning">
+      <option name="closed" value="true" />
+      <created>1746379563487</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1746379563488</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Day 45 start">
+      <option name="closed" value="true" />
+      <created>1746379588622</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1746379588622</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Day 45 web-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1746381328135</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1746381328135</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Day 45 web-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1746582669969</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1746582669969</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Day 45 web-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1746927848914</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1746927848914</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Day 45 web-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1746927858200</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1746927858200</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Day 45 web-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1747102777688</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1747102777688</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Day 45 web-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1747354765278</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1747354765279</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1747791540772</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1747791540772</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748004211473</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1748004211473</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748110351340</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1748110351340</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748110360190</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1748110360190</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748490361334</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490361336</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748490382950</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490382950</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748650173395</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1748650173395</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1748909718864</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1748909718864</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1749005811279</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1749005811279</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1749174268472</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1749174268472</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1749281066777</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1749281066777</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Day 45 live website-scrapping with beautiful soup">
+      <option name="closed" value="true" />
+      <created>1749281301916</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1749281301916</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -494,15 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kanye quotes start" />
-    <MESSAGE value="completed get call" />
-    <MESSAGE value="parameters on API" />
-    <MESSAGE value="iss overhead start" />
-    <MESSAGE value="iss overhead complete" />
-    <MESSAGE value="quizzer app start" />
-    <MESSAGE value="added api call for data" />
-    <MESSAGE value="user interface setup" />
-    <MESSAGE value="Day 34" />
     <MESSAGE value="completed quiz app" />
     <MESSAGE value="getting the id for weather" />
     <MESSAGE value="stored key in env instead" />
@@ -519,6 +520,15 @@
     <MESSAGE value="post request" />
     <MESSAGE value="put request" />
     <MESSAGE value="delete request" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete request" />
+    <MESSAGE value="exercise project start" />
+    <MESSAGE value="exercise project" />
+    <MESSAGE value="added request to sheety, to store values in spreadsheet" />
+    <MESSAGE value="flight deal start" />
+    <MESSAGE value="flight deal getting sheety data" />
+    <MESSAGE value="flight deal getting sheety data and retuning" />
+    <MESSAGE value="Day 45 start" />
+    <MESSAGE value="Day 45 web-scrapping with beautiful soup" />
+    <MESSAGE value="Day 45 live website-scrapping with beautiful soup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 45 live website-scrapping with beautiful soup" />
   </component>
 </project>
