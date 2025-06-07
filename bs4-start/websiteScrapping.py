@@ -1,21 +1,35 @@
 from bs4 import BeautifulSoup
 import requests
 
+respose = requests.get("https://news.ycombinator.com/")
+ycdata = respose.text
 
+soup = BeautifulSoup(ycdata, 'html.parser')
 
-response = requests.get("https://news.ycombinator.com/news")
-yc_webpage = response.text
+article_texts = []
+article_links = []
+article_scores = []
 
-soup = BeautifulSoup(yc_webpage, "html.parser")
-print(soup.title)
-title = soup.find_all(class_="titleline")
-value = {i.text: i.find("a") for i in title}
-upvote = [int(score.getText().split()[0]) for score in soup.find_all(name='span', class_='score')]
+# Get all span tags containing articles
+spans = soup.find_all("span", {"class": "titleline"})
+# Get all span tangs containing scores
+spans_score = soup.find_all("span", {"class": "score"})
 
-largest_number = max(upvote)
-largest_index = upvote.index(largest_number)
-print(largest_number)
-print(largest_index)
-# print(int(upvote[0].split()[0]))
+# Get all article texts and url from spans containing articles
+article_texts = [a.find('a').getText() for a in spans]
+article_links = [a.find('a').get("href") for a in spans]
+# Get all scores from spans containing scores
+article_scores = [int(score.getText().split()[0]) for score in spans_score]
+
+print(article_texts)
+print(article_links)
+print(article_scores)
+
+# Get index of highest score
+index = article_scores.index(max(article_scores))
+
+# Print story title, link and votes of story with highest votes.
+print(
+    f"Story with highest upvotes.\nTitle: {article_texts[index]}\nUrl: {article_links[index]}\nVotes: {article_scores[index]}")
 
 
