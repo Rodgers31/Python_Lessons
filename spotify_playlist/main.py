@@ -9,7 +9,7 @@ import requests
 load_dotenv("key.env")
 play_date = input("What year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 
-URL = f"https://www.billboard.com/charts/hot-100/2025-01-01/"
+URL = f"https://www.billboard.com/charts/hot-100/{play_date}/"
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
