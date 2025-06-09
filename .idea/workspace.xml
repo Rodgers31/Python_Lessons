@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 45 scrapping movies">
-      <change afterPath="$PROJECT_DIR$/100 movies/teacher_solution.py" afterDir="false" />
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 46 billboard top 100">
       <change afterPath="$PROJECT_DIR$/exercise_google_sheets/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify_playlist/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_playlist/key.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_playlist/teacher_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 movies/100movies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify_playlist/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/spotify_playlist/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,22 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00075" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744856700494</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1744856700494</updated>
-    </task>
-    <task id="LOCAL-00076" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744948703226</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1744948703226</updated>
     </task>
     <task id="LOCAL-00077" summary="delete request">
       <option name="closed" value="true" />
@@ -489,7 +473,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749334669978</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Day 46 billboard top 100">
+      <option name="closed" value="true" />
+      <created>1749430181129</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1749430181129</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Day 46 billboard top 100">
+      <option name="closed" value="true" />
+      <created>1749430194430</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1749430194430</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -507,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getting the id for weather" />
     <MESSAGE value="stored key in env instead" />
     <MESSAGE value="product completed" />
     <MESSAGE value="stock news start" />
@@ -532,6 +531,7 @@
     <MESSAGE value="Day 45 web-scrapping with beautiful soup" />
     <MESSAGE value="Day 45 live website-scrapping with beautiful soup" />
     <MESSAGE value="Day 45 scrapping movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 45 scrapping movies" />
+    <MESSAGE value="Day 46 billboard top 100" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 46 billboard top 100" />
   </component>
 </project>
