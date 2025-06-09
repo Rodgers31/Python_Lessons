@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/exercise_google_sheets/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spotify_playlist/key.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify_playlist/teacher_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spotify_playlist/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/spotify_playlist/main.py" afterDir="false" />
     </list>
@@ -96,22 +95,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00077" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744948727055</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1744948727055</updated>
-    </task>
-    <task id="LOCAL-00078" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744948736977</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1744948736977</updated>
     </task>
     <task id="LOCAL-00079" summary="delete request">
       <option name="closed" value="true" />
@@ -489,7 +472,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749430194430</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Day 46 billboard top 100">
+      <option name="closed" value="true" />
+      <created>1749440603116</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1749440603116</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Day 46 billboard top 100">
+      <option name="closed" value="true" />
+      <created>1749440612101</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1749440612102</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="UnknownFeatures">
