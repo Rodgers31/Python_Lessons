@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 46 billboard top 100">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 46 billboard top 100 complete">
       <change afterPath="$PROJECT_DIR$/exercise_google_sheets/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spotify_playlist/key.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify_playlist/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/spotify_playlist/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,22 +94,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00079" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744948745420</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1744948745420</updated>
-    </task>
-    <task id="LOCAL-00080" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744948763040</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1744948763040</updated>
     </task>
     <task id="LOCAL-00081" summary="delete request">
       <option name="closed" value="true" />
@@ -488,7 +471,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749440612102</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Day 46 billboard top 100 complete">
+      <option name="closed" value="true" />
+      <created>1749446159499</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1749446159499</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Day 46 billboard top 100 complete">
+      <option name="closed" value="true" />
+      <created>1749446208942</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1749446208942</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -506,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stored key in env instead" />
     <MESSAGE value="product completed" />
     <MESSAGE value="stock news start" />
     <MESSAGE value="completed getting stock" />
@@ -531,6 +529,7 @@
     <MESSAGE value="Day 45 live website-scrapping with beautiful soup" />
     <MESSAGE value="Day 45 scrapping movies" />
     <MESSAGE value="Day 46 billboard top 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 46 billboard top 100" />
+    <MESSAGE value="Day 46 billboard top 100 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 46 billboard top 100 complete" />
   </component>
 </project>
