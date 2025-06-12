@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 46 billboard top 100 complete">
+    <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 47 amazon price tracker">
+      <change afterPath="$PROJECT_DIR$/exercise_google_sheets/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/exercise_google_sheets/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spotify_playlist/key.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_price_tracker/teacherSolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_price_tracker/teacherSolution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,54 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00081" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1744948770343</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1744948770343</updated>
-    </task>
-    <task id="LOCAL-00082" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1745035235426</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1745035235426</updated>
-    </task>
-    <task id="LOCAL-00083" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1745194638849</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1745194638849</updated>
-    </task>
-    <task id="LOCAL-00084" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1745194654846</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1745194654846</updated>
-    </task>
-    <task id="LOCAL-00085" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1745370035883</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1745370035883</updated>
-    </task>
-    <task id="LOCAL-00086" summary="delete request">
-      <option name="closed" value="true" />
-      <created>1745370046512</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1745370046512</updated>
     </task>
     <task id="LOCAL-00087" summary="exercise project start">
       <option name="closed" value="true" />
@@ -487,7 +441,55 @@
       <option name="project" value="LOCAL" />
       <updated>1749446208942</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1749685713658</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1749685713658</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1749685720967</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1749685720967</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1749694999660</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1749694999660</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1749695410921</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1749695410921</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1749695431438</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1749695431438</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1749700587840</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1749700587840</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -505,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="product completed" />
     <MESSAGE value="stock news start" />
     <MESSAGE value="completed getting stock" />
     <MESSAGE value="completed stock app" />
@@ -530,6 +531,7 @@
     <MESSAGE value="Day 45 scrapping movies" />
     <MESSAGE value="Day 46 billboard top 100" />
     <MESSAGE value="Day 46 billboard top 100 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 46 billboard top 100 complete" />
+    <MESSAGE value="Day 47 amazon price tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 47 amazon price tracker" />
   </component>
 </project>
