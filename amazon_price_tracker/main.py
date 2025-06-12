@@ -6,7 +6,7 @@ price = response.text
 
 soup = BeautifulSoup(price, 'html.parser')
 
-item_price = soup.find("span", {"class": 'a-price-whole'})
-item_price_d = soup.find("span", {"class": 'a-price-fraction'})
-total_price = f"{item_price.text}{item_price_d.text}"
-print(float(total_price))
+item_price = soup.find("span", {"class": 'a-offscreen'}).getText()
+remove_dollar = item_price.split("$")[1]
+total_price = float(remove_dollar)
+print(total_price)
