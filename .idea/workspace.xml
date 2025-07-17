@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spotify_playlist/key.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_price_tracker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_price_tracker/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,22 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00088" summary="exercise project start">
-      <option name="closed" value="true" />
-      <created>1745716099285</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1745716099286</updated>
-    </task>
-    <task id="LOCAL-00089" summary="exercise project start">
-      <option name="closed" value="true" />
-      <created>1745716112115</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1745716112115</updated>
     </task>
     <task id="LOCAL-00090" summary="exercise project start">
       <option name="closed" value="true" />
@@ -488,7 +473,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749709085872</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1752059513343</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1752059513344</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1752426710456</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1752426710456</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="UnknownFeatures">
