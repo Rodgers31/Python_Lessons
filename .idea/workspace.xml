@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8082d9d5-9213-41d2-8e99-dc690524a5c0" name="Changes" comment="Day 47 amazon price tracker">
+      <change afterPath="$PROJECT_DIR$/amazon_price_tracker/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/exercise_google_sheets/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/exercise_google_sheets/key.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flight-deals-start/key.env" afterDir="false" />
@@ -96,14 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741490907059</updated>
-    </task>
-    <task id="LOCAL-00090" summary="exercise project start">
-      <option name="closed" value="true" />
-      <created>1745794383918</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1745794383919</updated>
     </task>
     <task id="LOCAL-00091" summary="exercise project start">
       <option name="closed" value="true" />
@@ -489,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752426710456</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Day 47 amazon price tracker">
+      <option name="closed" value="true" />
+      <created>1752766790521</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1752766790521</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="UnknownFeatures">
