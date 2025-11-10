@@ -8,7 +8,9 @@ soup = BeautifulSoup(movies_web, "html.parser")
 
 # movies_list = []
 movies = soup.find_all("h3", {"class": 'title'})
+# get the split will ge the first item after a space, and the -1 will get the last item from the individual movie
 movies_list = [x.text.split(" ", 1)[-1] for x in movies]
+# reverse the movie list from first to last
 reverse = movies_list[::-1]
 
 with open('100movies.txt', 'a', encoding="utf-8") as file:
